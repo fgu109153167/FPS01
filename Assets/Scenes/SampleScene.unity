@@ -447,10 +447,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3786edcd7fc43b54e8f2e0b0189a5f8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
-  jumpForce: 2
+  moveSpeed: 1
+  jumpForce: 1
+  jumpCooldown: 0
+  groundDrag: 0
   jumpKey: 32
   PlayerCamera: {fileID: 963194228}
+  playerHeight: 2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 2147483647
+  grounded: 1
 --- !u!114 &906938154
 MonoBehaviour:
   m_ObjectHideFlags: 0

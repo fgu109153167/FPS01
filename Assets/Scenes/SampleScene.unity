@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 651593283}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -761,6 +761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1052325504}
+  - component: {fileID: 1052325505}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -784,6 +785,21 @@ Transform:
   m_Father: {fileID: 963194228}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1052325505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052325503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e152e83089e6d479da039b7edd6f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCam: {fileID: 963194227}
+  attackPoint: {fileID: 1188475206}
+  bullet: {fileID: 8271720327937047272, guid: f67c04c0f0658da4a9d4cc3109360f25, type: 3}
 --- !u!1 &1161345568
 GameObject:
   m_ObjectHideFlags: 0
